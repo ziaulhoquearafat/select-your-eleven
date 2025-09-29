@@ -22,7 +22,7 @@ function App() {
         <div className="font-bold">
           <button
             onClick={() => setToggle(true)}
-            className={`px-5 py-2 border-1 border-gray-300 rounded-l-2xl border-r-0 ${
+            className={`px-5 py-2 border-1 border-gray-300 rounded-l-2xl border-r-0 cursor-pointer ${
               toggle === true ? 'bg-[#E7FE29]' : ''
             }`}
           >
@@ -30,7 +30,7 @@ function App() {
           </button>
           <button
             onClick={() => setToggle(false)}
-            className={`px-5 py-2 border-1 border-gray-300 rounded-r-2xl border-l-0 ${
+            className={`px-5 py-2 border-1 border-gray-300 rounded-r-2xl border-l-0 cursor-pointer ${
               toggle === false ? 'bg-[#E7FE29]' : ''
             }`}
           >
