@@ -3,7 +3,9 @@ import React from 'react';
 const SelectedPlayers = () => {
   return (
     <>
-      <p>Selected Players</p>
+      <div className="max-w-[1200px] mx-auto">
+        <p>Selected Players</p>
+      </div>
     </>
   );
 };
